@@ -1,0 +1,2581 @@
+/* Browser window width size under 1286px */
+
+@media (max-width: 1286px) {
+
+	#upper-content {
+		width: 1260px;
+}
+	header nav {
+		width: 1260px;
+}
+	main {
+		width: 1260px;
+}
+	#register {
+		bottom: 141px;
+}
+	footer {
+		width: 1260px;
+}
+	#subfooter {
+		width: 1260px;
+}
+
+}
+
+/* Browser window width size under 1274px */
+
+@media (max-width: 1274px) {
+
+	#upper-content {
+		width: 1250px;
+}
+	header nav {
+		width: 1250px;
+}
+	#register {
+		bottom: 139px;
+}
+	main {
+		width: 1250px;
+}
+	footer {
+		width: 1250px;
+}
+	#subfooter {
+		width: 1250px;
+}
+
+}
+
+/* Browser window width size under 1263px */
+
+@media (max-width: 1263px) {
+
+	body {
+		font-size: 15px;
+}
+
+	#upper-content {
+		width: 1240px;
+		height: 35px;
+}
+	header nav {
+		width: 1240px;
+}
+	main {
+		width: 1240px;
+}
+	#register {
+		bottom: 137px;
+		right: 100px;
+}
+	#learn {
+		width: 148px;
+		height: 28px;
+		font-size: 1.4em;
+		bottom: 20px;
+		right: 100px;
+}
+	footer {
+		width: 1240px;
+}
+	#subfooter {
+		width: 1240px;
+}
+
+}
+
+/* Browser window width size under 1253px */
+
+@media (max-width: 1253px) {
+
+	body {
+		font-size: 15px;
+}
+
+	#upper-content {
+		width: 1230px;
+		height: 35px;
+}
+	header nav {
+		width: 1230px;
+}
+	main {
+		width: 1230px;
+}
+	#register {
+		bottom: 135px;
+		right: 100px;
+}
+	#learn {
+		width: 148px;
+		height: 28px;
+		bottom: 20px;
+		right: 100px;
+}
+	footer {
+		width: 1230px;
+}
+	#subfooter {
+		width: 1230px;
+}
+
+}
+
+/* Browser window width size under 1243px */
+
+@media (max-width: 1243px) {
+
+	body {
+		font-size: 15px;
+}
+
+	#upper-content {
+		width: 1220px;
+		height: 35px;
+}
+	header nav {
+		width: 1220px;
+}
+	main {
+		width: 1220px;
+}
+	#register {
+		bottom: 133px;
+		right: 100px;
+}
+	#learn {
+		width: 148px;
+		height: 28px;
+}
+	footer {
+		width: 1220px;
+}
+	#subfooter {
+		width: 1220px;
+}
+
+}
+
+/* Browser window width size under 1233px */
+
+@media (max-width: 1233px) {
+
+	body {
+		font-size: 15px;
+}
+
+	#upper-content {
+		width: 1210px;
+		height: 35px;
+}
+	header nav {
+		width: 1210px;
+}
+	main {
+		width: 1210px;
+}
+	#register {
+		bottom: 131px;
+}	
+	#learn {
+		width: 148px;
+		height: 28px;
+}
+	footer {
+		width: 1210px;
+}
+	#subfooter {
+		width: 1210px;
+}
+
+}
+
+/* Browser window width size under 1223px */
+
+@media (max-width: 1223px) {
+
+	body {
+		font-size: 15px;
+}
+
+	#upper-content {
+		width: 1200px;
+		height: 35px;
+}
+	header nav {
+		width: 1200px;
+}
+	main {
+		width: 1200px;
+}
+
+	#register {
+		bottom: 129px;
+}
+	#learn {
+		width: 148px;
+		height: 28px;
+}
+	footer {
+		width: 1200px;
+}
+	#subfooter {
+		width: 1200px;
+}
+
+}
+
+/* Browser window width size under 1213px */
+
+@media (max-width: 1213px) {
+
+	body {
+		font-size: 15px;
+}
+
+	#upper-content {
+		width: 1190px;
+		height: 35px;
+}
+	header nav {
+		width: 1190px;
+}
+	main {
+		width: 1190px;
+}
+	#register {
+		bottom: 127px;
+}
+	#learn {
+		width: 148px;
+		height: 28px;
+}
+	footer {
+		width: 1190px;
+}
+	#subfooter {
+		width: 1190px;
+}
+
+}
+
+/* Browser window width size under 1203px */
+
+@media (max-width: 1203px) {
+
+	body {
+		font-size: 15px;
+}
+	#upper-content {
+		width: 1180px;
+		height: 35px;
+}
+	header nav {
+		width: 1180px;
+}
+	main {
+		width: 1180px;
+}
+	#welcome h2 {
+		font-size: 1.8em;
+}
+	#register {
+		bottom: 125px;
+}
+	#learn {
+		width: 148px;
+		height: 28px;
+}
+	footer {
+		width: 1180px;
+}
+	#subfooter {
+		width: 1180px;
+}
+
+}
+
+/* Browser window width size under 1193px */
+
+@media (max-width: 1193px) {
+
+	body {
+		font-size: 15px;
+}
+	#upper-content {
+		width: 1170px;
+		height: 35px;
+}
+	header nav {
+		width: 1170px;
+}
+	main {
+		width: 1170px;
+}
+	#register {
+		bottom: 123px;
+}
+	#learn {
+		width: 146px;
+		height: 26px;
+}
+	footer {
+		width: 1170px;
+}
+	#subfooter {
+		width: 1170px;
+}
+
+}
+
+/* Browser window width size under 1183px */
+
+@media (max-width: 1183px) {
+
+	body {
+		font-size: 15px;
+}
+	#upper-content {
+		width: 1160px;
+		height: 35px;
+}
+	header nav {
+		width: 1160px;
+}
+	main {
+		width: 1160px;
+}
+	#register {
+		bottom: 121px;
+}
+	#learn {
+		width: 146px;
+		height: 26px;
+}
+	#br-disappear {
+		display: none;
+}
+	footer {
+		width: 1160px;
+}
+	#subfooter {
+		width: 1160px;
+}
+
+}
+
+/* Browser window width size under 1173px */
+
+@media (max-width: 1173px) {
+
+	body {
+		font-size: 15px;
+}
+	#upper-content {
+		width: 1150px;
+		height: 35px;
+}
+	header nav {
+		width: 1150px;
+}
+	main {
+		width: 1150px;
+}
+	#register {
+		bottom: 119px;
+}
+	#learn {
+		width: 146px;
+		height: 26px;
+}
+	footer {
+		width: 1150px;
+}
+	#subfooter {
+		width: 1150px;
+}
+
+}
+
+/* Browser window width size under 1163px */
+
+@media (max-width: 1163px) {
+
+	body {
+		font-size: 15px;
+}
+	#upper-content {
+		width: 1140px;
+		height: 35px;
+}
+	header nav {
+		width: 1140px;
+}
+	main {
+		width: 1140px;
+}
+	#register {
+		bottom: 117px;
+}
+	#learn {
+		width: 146px;
+		height: 26px;
+}
+	footer {
+		width: 1140px;
+}
+	#subfooter {
+		width: 1140px;
+}
+
+}
+
+/* Browser window width size under 1153px */
+
+@media (max-width: 1153px) {
+
+	body {
+		font-size: 15px;
+}
+	#upper-content {
+		width: 1130px;
+		height: 35px;
+}
+	header nav {
+		width: 1130px;
+}
+	main {
+		width: 1130px;
+}
+	#register {
+		bottom: 115px;
+}
+	#learn {
+		width: 146px;
+		height: 26px;
+}
+	footer {
+		width: 1130px;
+}
+	#subfooter {
+		width: 1130px;
+}
+
+}
+
+/* Browser window width size under 1143px */
+
+@media (max-width: 1143px) {
+
+	body {
+		font-size: 15px;
+}
+	#upper-content {
+		width: 1120px;
+		height: 35px;
+}
+	header nav {
+		width: 1120px;
+}
+	main {
+		width: 1120px;
+}
+	#learn {
+		width: 146px;
+		height: 26px;
+}
+	#register {
+		bottom: 113px;
+}
+	footer {
+		width: 1120px;
+}
+	#subfooter {
+		width: 1120px;
+}
+
+}
+
+/* Browser window width size under 1133px */
+
+@media (max-width: 1133px) {
+
+	body {
+		font-size: 15px;
+}
+	#upper-content {
+		width: 1110px;
+		height: 35px;
+}
+	header nav {
+		width: 1110px;
+}
+	main {
+		width: 1110px;
+}
+	#register {
+		bottom: 111px;
+}
+	#learn {
+		width: 146px;
+		height: 26px;
+}
+	footer {
+		width: 1110px;
+}
+	#subfooter {
+		width: 1110px;
+}
+
+}
+
+/* Browser window width size under 1123px */
+
+@media (max-width: 1123px) {
+
+	body {
+		font-size: 15px;
+}
+	#upper-content {
+		width: 1100px;
+		height: 35px;
+}
+	header nav {
+		width: 1100px;
+}
+	main {
+		width: 1100px;
+}
+	#register {
+		bottom: 109px;
+}
+	#learn {
+		width: 146px;
+		height: 26px;
+}
+	footer {
+		width: 1100px;
+}
+	#subfooter {
+		width: 1100px;
+}
+
+}
+
+/* Browser window width size under 1113px */
+
+@media (max-width: 1113px) {
+
+	body {
+		font-size: 15px;
+}
+	#upper-content {
+		width: 1090px;
+		height: 35px;
+}
+	header nav {
+		width: 1090px;
+}
+	main {
+		width: 1090px;
+}
+	#register {
+		bottom: 108px;
+}
+	#learn {
+		width: 146px;
+		height: 26px;
+}
+	footer {
+		width: 1090px;
+}
+	#subfooter {
+		width: 1090px;
+}
+
+}
+
+/* Browser window width size under 1103px */
+
+@media (max-width: 1103px) {
+
+	body {
+		font-size: 15px;
+}
+	#upper-content {
+		width: 1080px;
+		height: 35px;
+}
+	header nav {
+		width: 1080px;
+}
+	main {
+		width: 1080px;
+}	
+	#register {
+		bottom: 107px;
+}
+	#learn {
+		width: 146px;
+		height: 26px;
+}
+
+	footer {
+		width: 1080px;
+}
+	#subfooter {
+		width: 1080px;
+}
+
+}
+
+/* Browser window width size under 1093px */
+
+@media (max-width: 1093px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-contentbkgrnd {
+		height: 35px;
+}
+	#logo h1 {
+		font-size: 1.7em;
+}
+	#upper-content {
+		width: 1070px;
+		height: 35px;
+}
+	header nav {
+		width: 1070px;
+}
+	main {
+		width: 1070px;
+}
+	#register {
+		bottom: 106px;
+}
+	#learn {
+		width: 146px;
+		height: 26px;
+}
+	footer {
+		width: 1070px;
+}
+	#subfooter {
+		width: 1070px;
+}
+
+}
+
+/* Browser window width size under 1083px */
+
+@media (max-width: 1083px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 1060px;
+		height: 35px;
+}
+	header nav {
+		width: 1060px;
+}
+	main {
+		width: 1060px;
+}
+	#register {
+		bottom: 105px;
+}
+	#learn {
+		width: 146px;
+		height: 26px;
+}
+	footer {
+		width: 1060px;
+}
+	#subfooter {
+		width: 1060px;
+}
+
+}
+
+/* Browser window width size under 1073px */
+
+@media (max-width: 1073px) {
+
+	body {
+		font-size: 14px;
+}
+
+	#upper-content {
+		width: 1050px;
+		height: 35px;
+}
+	header nav {
+		width: 1050px;
+}
+	main {
+		width: 1050px;
+}
+	#register {
+		bottom: 104px;
+}
+	#learn {
+		width: 146px;
+		height: 26px;
+}
+	footer {
+		width: 1050px;
+}
+	.subflex li {
+		padding-left: 25px;
+		padding-right: 25px;
+}
+	#subfooter {
+		width: 1050px;
+}
+
+}
+
+/* Browser window width size under 1063px */
+
+@media (max-width: 1063px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 1040px;
+		height: 35px;
+}
+	header nav {
+		width: 1040px;
+}
+	main {
+		width: 1040px;
+}
+	#register {
+		bottom: 103px;
+}
+	#learn {
+		width: 146px;
+		height: 26px;
+}
+	footer {
+		width: 1040px;
+}
+	#subfooter {
+		width: 1040px;
+}
+
+}
+
+
+/* Browser window width size under 1053px */
+
+@media (max-width: 1053px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 1030px;
+		height: 35px;
+}
+	header nav {
+		width: 1030px;
+}
+	main {
+		width: 1030px;
+}
+	#register {
+		bottom: 102px;
+}
+	#learn {
+		width: 146px;
+		height: 26px;
+}
+	footer {
+		width: 1030px;
+}
+	#subfooter {
+		width: 1030px;
+}
+
+}
+
+/* Browser window width size under 1043px */
+
+@media (max-width: 1043px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 1020px;
+		height: 35px;
+}
+	header nav {
+		width: 1020px;
+}
+	main {
+		width: 1020px;
+}
+	#register {
+		bottom: 101px;
+}
+	#learn {
+		width: 146px;
+		height: 26px;
+}
+	footer {
+		width: 1020px;
+}
+	.subflex li {
+		padding-left: 20px;
+		padding-right: 20px;
+}
+
+	#subfooter {
+		width: 1020px;
+}
+
+}
+
+/* Browser window width size under 1033px */
+
+@media (max-width: 1033px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 1010px;
+		height: 35px;
+}
+	header nav {
+		width: 1010px;
+}
+	main {
+		width: 1010px;
+}
+	#register {
+		bottom: 100px;
+}
+	#learn {
+		width: 146px;
+		height: 26px;
+}
+	footer {
+		width: 1010px;
+}
+	#subfooter {
+		width: 1010px;
+}
+
+}
+
+/* Browser window width size under 1023px */
+
+@media (max-width: 1023px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 1000px;
+		height: 35px;
+}
+	
+	#signup {
+		padding-left: 70px;
+}
+
+	header nav {
+		width: 1000px;
+}
+	main {
+		width: 1000px;
+}
+	#register {
+		bottom: 99px;
+}
+	#learn {
+		width: 146px;
+		height: 26px;
+}
+	.servimg p {
+		line-height: 1.1; 
+}
+
+	footer {
+		width: 1000px;
+}
+	#subfooter {
+		width: 1000px;
+}
+
+}
+
+/* Browser window width size under 1013px */
+
+@media (max-width: 1013px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 990px;
+		height: 35px;
+}
+	#logo h1 {
+	font-size: 1.7em;
+}
+
+	header nav {
+		width: 990px;
+}
+	main {
+		width: 990px;
+}
+	#register {
+		bottom: 98px;
+}
+	#learn {
+		width: 146px;
+		height: 26px;
+}
+
+	footer {
+		width: 990px;
+}
+	#subfooter {
+		width: 990px;
+}
+
+}
+
+/* Browser window width size under 1003px */
+
+@media (max-width: 1003px) {
+
+	body {
+		font-size: 14px;
+}
+
+	#upper-contentbkgrnd {
+	height: 33px;
+}
+	#upper-content {
+		width: 980px;
+		height: 35px;
+}
+	#logo h1 {
+		font-size: 1.5em;
+}
+
+	header nav {
+		width: 980px;
+}
+	main {
+		width: 980px;
+}
+	#register {
+		bottom: 97px;
+}
+	#learn {
+		width: 146px;
+		height: 26px;
+}
+	.morebkgrnd {
+		padding-top: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 25.5px;
+		margin-top: 5px;
+}
+	#henvipara span {
+		display: none;
+}
+	#henvipara:after {
+		content: 'Our center is committed to providing a safe and happy environment. We encourage the children in our care to explore and...';
+}
+
+	footer {
+		width: 980px;
+}
+	#subfooter {
+		width: 980px;
+}
+
+}
+
+/* Browser window width size under 993px */
+
+@media (max-width: 993px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 970px;
+		height: 35px;
+}
+
+	header nav {
+		width: 970px;
+}
+	main {
+		width: 970px;
+}
+	#register {
+		bottom: 96px;
+}
+	#learn {
+		width: 142px;
+		height: 22px;
+}
+
+	footer {
+		width: 970px;
+}
+	#subfooter {
+		width: 970px;
+}
+
+}
+
+/* Browser window width size under 983px */
+
+@media (max-width: 983px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 960px;
+		height: 35px;
+}
+
+	#thirditem {
+	margin-right: 30px;
+}
+
+	header nav {
+		width: 960px;
+}
+	main {
+		width: 960px;
+}
+	#register {
+		bottom: 95px;
+}
+	.servimg h2 {
+		left: 14px;
+}
+
+	footer {
+		width: 960px;
+}
+	#subfooter {
+		width: 960px;
+}
+
+}
+
+
+/* Browser window width size under 973px */
+
+@media (max-width: 973px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 950px;
+		height: 35px;
+}
+	#logo h1 {
+		font-size: 1.4em;
+}
+
+	header nav {
+		width: 950px;
+}
+	main {
+		width: 950px;
+}
+	#register {
+		bottom: 90px;
+}
+
+	footer {
+		width: 950px;
+}
+	#subfooter {
+		width: 950px;
+}
+
+}
+
+/* Browser window width size under 963px */
+
+@media (max-width: 963px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 940px;
+		height: 35px;
+}
+
+	#thirditem {
+	margin-right: 30px;
+}
+
+
+	header nav {
+		width: 940px;
+}
+	main {
+		width: 940px;
+}
+	#br-disappear2 {
+		display: none;
+}
+
+	footer {
+		width: 940px;
+}
+	#subfooter {
+		width: 940px;
+}
+
+}
+
+/* Browser window width size under 953px */
+
+@media (max-width: 953px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 930px;
+		height: 35px;
+}
+	header nav {
+		width: 930px;
+}
+	main {
+		width: 930px;
+}
+	.servimg {
+		height: 32%;
+}
+	#henvironment span {
+		display: none;
+}
+	#henvironment:after {
+		content: 'Happy Env.';
+}
+	footer {
+		width: 930px;
+}
+	#subfooter {
+		width: 930px;
+}
+
+}
+
+/* Browser window width size under 943px */
+
+@media (max-width: 943px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 920px;
+		height: 35px;
+}
+	header nav {
+		width: 920px;
+}
+	main {
+		width: 920px;
+}
+	#register {
+		bottom: 88px;
+}
+	.servimg {
+		height: 32%;
+}
+	.viewmore {
+		left: 110px;
+}
+	footer {
+		width: 920px;
+}
+	#subfooter {
+		width: 920px;
+}
+
+}
+
+/* Browser window width size under 933px */
+
+@media (max-width: 933px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 910px;
+		height: 35px;
+}
+	#signup {
+		padding-left: 35px;
+}
+	header nav {
+		width: 910px;
+}
+	main {
+		width: 910px;
+}
+	#register {
+		bottom: 86px;
+}
+	#learn {
+		width: 140px;
+		height: 20px;
+}
+	.servimg {
+		height: 32%;
+}
+	#br-disappear2 {
+		display: none;
+}
+	.viewmore {
+		font-size: 0.9em;
+		left: 105px;
+}
+	footer {
+		width: 910px;
+}
+	.subflex li {
+		padding-left: 15px;
+		padding-right: 15px;
+}
+	#subfooter {
+		width: 910px;
+}
+
+}
+
+/* Browser window width size under 923px */
+
+@media (max-width: 923px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 900px;
+		height: 35px;
+}
+	header nav {
+		width: 900px;
+}
+	main {
+		width: 900px;
+}
+	footer {
+		width: 900px;
+}
+	#subfooter {
+		width: 900px;
+}
+
+}
+
+/* Browser window width size under 913px */
+
+@media (max-width: 913px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 890px;
+		height: 35px;
+}
+	header nav {
+		width: 890px;
+}
+	main {
+		width: 890px;
+}
+	#register {
+		bottom: 84px;
+}
+	footer {
+		width: 890px;
+}
+	#subfooter {
+		width: 890px;
+}
+
+}
+
+@media (max-width: 903px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 880px;
+		height: 35px;
+}
+	header nav {
+		width: 880px;
+}
+	main {
+		width: 880px;
+}
+	.servimg h2 {
+		left: 12px;
+}
+	#br-disappear3 {
+		display: none;
+}
+	footer {
+		width: 880px;
+}
+	#subfooter {
+		width: 880px;
+}
+
+}
+
+@media (max-width: 893px) {
+
+	body {
+		font-size: 14px;
+}
+	#logo h1 {
+		font-size: 1.3em;
+}
+	#upper-content {
+		width: 870px;
+		height: 35px;
+}
+	header nav {
+		width: 870px;
+}
+	main {
+		width: 870px;
+}
+	#register {
+		bottom: 82px;
+}
+
+	#br-disappear3 {
+		display: none;
+}
+	
+	footer {
+		width: 870px;
+}
+	#subfooter {
+		width: 870px;
+}
+
+}
+
+@media (max-width: 883px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 860px;
+		height: 35px;
+}
+	#contact {
+		padding-left: 12px;
+}
+	header nav {
+		width: 860px;
+}
+	main {
+		width: 860px;
+}
+	#br-disappear3 {
+		display: none;
+}
+	
+	footer {
+		width: 860px;
+}
+	#subfooter {
+		width: 860px;
+}
+
+}
+
+@media (max-width: 873px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 850px;
+		height: 35px;
+}
+	#signup {
+		padding-left: 18px;
+}
+	header nav {
+		width: 850px;
+}
+	main {
+		width: 850px;
+}
+	#register {
+		bottom: 80px;
+}
+	#learn {
+		width: 132px;
+		height: 20px;
+		font-size: 1.3em;
+}	
+	footer {
+		width: 850px;
+}
+	footer nav {
+		margin-left: 15%;
+		margin-right: 15%;
+}
+	.subflex li {
+		padding-left: 10px;
+		padding-right: 10px;
+}
+	#subfooter {
+		width: 850px;
+}
+}
+
+@media (max-width: 863px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 840px;
+		height: 35px;
+}
+	header nav {
+		width: 840px;
+}
+	main {
+		width: 840px;
+}
+	#readmore {
+		font-size: 0.9em;
+}
+	
+	footer {
+		width: 840px;
+}
+	#subfooter {
+		width: 840px;
+}
+}
+
+@media (max-width: 853px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 830px;
+		height: 35px;
+}
+	#signup {
+		padding-left: 14px;
+}
+	#thirditem {
+		margin-right: 14px;
+}
+	header nav {
+		width: 830px;
+}
+	main {
+		width: 830px;
+}
+	#register {
+		bottom: 78px;
+}
+	.day p {
+		font-size: 1.2em;
+}
+	.viewmore {
+		font-size: 0.8em;
+}	
+	footer {
+		width: 830px;
+}
+	#subfooter {
+		width: 830px;
+}
+
+}
+
+@media (max-width: 843px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 820px;
+		height: 35px;
+}
+	header nav {
+		width: 820px;
+}
+	main {
+		width: 820px;
+}
+	#henvipara span {
+		display: none;
+}
+	#henvipara:after {
+		content: 'Our center is committed to providing a safe and happy environment. We encourage the children in our care...';
+}
+	#upcomings h3 {
+		font-size: 1.4em;
+}
+	#nov span {
+		display: none;
+}
+	#nov:after {
+		content: 'On first week of October, children are photographed by a professional photographer (with the parent consent)...';
+}	
+	footer {
+		width: 820px;
+}
+	#subfooter {
+		width: 820px;
+}
+
+}
+
+@media (max-width: 833px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 810px;
+		height: 35px;
+}
+	#signup {
+		padding-left: 8px;
+}
+	#thirditem {
+		margin-right: 6px;
+}
+	header nav {
+		width: 810px;
+}
+	main {
+		width: 810px;
+}
+	#learn {
+		width: 120px;
+		height: 20px;
+}
+	#register {
+		bottom: 78px;
+}
+	.day p {
+		font-size: 1.2em;
+}
+	.viewmore {
+		font-size: 0.8em;
+}	
+	footer {
+		width: 810px;
+}
+	#subfooter {
+		width: 810px;
+}
+
+}
+
+@media (max-width: 823px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 800px;
+		height: 35px;
+}
+
+	header nav {
+		width: 800px;
+}
+	main {
+		width: 800px;
+}
+	#activpp span {
+		display: none;
+}
+	#activpp:after {
+		content: "Our activities includes challenging and developing your child's creativity, thinking skills, social skills...";
+}
+	
+	footer {
+		width: 800px;
+}
+	#subfooter {
+		width: 800px;
+}
+
+}
+
+@media (max-width: 813px) {
+
+	body {
+		font-size: 14px;
+}	
+	#logo h1 {
+		font-size: 1.3em;
+}
+	#upper-content {
+		width: 790px;
+		height: 35px;
+}
+
+	header nav {
+		width: 790px;
+}
+	main {
+		width: 790px;
+}
+	#register {
+		bottom: 76px;
+}
+	#upcomings h3 {
+		font-size: 1.3em;
+}
+	
+	footer {
+		width: 790px;
+}
+	#subfooter {
+		width: 790px;
+}
+
+}
+
+@media (max-width: 803px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 780px;
+		height: 35px;
+}
+	#contact {
+		padding-left: 4px;
+}
+
+	header nav {
+		width: 780px;
+}
+	main {
+		width: 780px;
+}	
+	footer {
+		width: 780px;
+}
+	.subflex li {
+		padding-left: 6px;
+		padding-right: 6px;
+}
+	#subfooter {
+		width: 780px;
+}
+
+}
+
+@media (max-width: 793px) {
+
+	body {
+		font-size: 14px;
+}
+	#logo h1 {
+		font-size: 1.2em;
+}
+	#upper-content {
+		width: 770px;
+		height: 35px;
+}
+	#contact {
+		padding-left: 6px;
+}
+	#signup {
+		padding-left: 4px;
+}
+	#thirditem {
+		margin-right: 0px;
+}
+	header nav {
+		width: 770px;
+}
+	main {
+		width: 770px;
+}
+	#register {
+		bottom: 74px;
+}
+	.day p {
+		font-size: 1.2em;
+}
+	.viewmore {
+		font-size: 0.7em;
+}	
+	footer {
+		width: 770px;
+}
+	#subfooter {
+		width: 770px;
+}
+
+}
+
+@media (max-width: 783px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 760px;
+		height: 35px;
+}
+	.sm {
+		display: none;
+}
+
+	header nav {
+		width: 760px;
+}
+	main {
+		width: 760px;
+}
+	#signup {
+		padding-left: 40px;
+}
+	#br-disappear4 {
+		display: none;
+}	
+	footer {
+		width: 760px;
+}
+	#subfooter {
+		width: 760px;
+}
+
+}
+
+@media (max-width: 773px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 750px;
+		height: 35px;
+}
+	#thirditem {
+		margin-right: 0px;
+}
+	header nav {
+		width: 750px;
+}
+	main {
+		width: 750px;
+}
+	#register {
+		bottom: 72px;
+}
+	#readmore {
+		font-size: 0.8em;
+}
+	.day p {
+		font-size: 1.1em;
+}
+	.viewmore {
+		left: 90px;
+}	
+	footer {
+		width: 750px;
+}
+	#subfooter {
+		width: 750px;
+}
+}
+
+@media (max-width: 763px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 740px;
+		height: 35px;
+}
+	#thirditem {
+		margin-right: 0px;
+}
+	header nav {
+		width: 740px;
+}
+	main {
+		width: 740px;
+}
+	
+	footer {
+		width: 740px;
+}
+	#subfooter {
+		width: 740px;
+}
+
+}
+@media (max-width: 753px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 730px;
+		height: 35px;
+}
+	#thirditem {
+		margin-right: 0px;
+}
+	header nav {
+		width: 730px;
+}
+	main {
+		width: 730px;
+}
+	#register {
+		bottom: 70px;
+}
+	#readmore {
+		font-size: 0.8em;
+}
+	.day p {
+		font-size: 1.1em;
+}
+	.viewmore {
+		left: 90px;
+}
+	.subflex li {
+		padding-left: 4px;
+		padding-right: 4px;
+}	
+	footer {
+		width: 730px;
+}
+	#subfooter {
+		width: 730px;
+}
+}
+
+@media (max-width: 743px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 720px;
+		height: 35px;
+}
+	#thirditem {
+		margin-right: 0px;
+}
+	header nav {
+		width: 720px;
+}
+	main {
+		width: 720px;
+}
+	#register {
+		bottom: 70px;
+}
+	#henvipara:after {
+		content: 'Our center is committed to providing a safe and happy environment. We encourage...';
+}	
+	footer {
+		width: 720px;
+}
+	#subfooter {
+		width: 720px;
+}
+}
+
+@media (max-width: 733px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 710px;
+		height: 35px;
+}
+	#thirditem {
+		margin-right: 0px;
+}
+	header nav {
+		width: 710px;
+}
+	main {
+		width: 710px;
+}
+	#register {
+		bottom: 68px;
+}
+	#upcomings h3 {
+		font-size: 1.2em;
+}
+	#readmore {
+		font-size: 0.8em;
+}
+	.day p {
+		font-size: 1.1em;
+}
+	.viewmore {
+		left: 90px;
+}	
+	footer {
+		width: 710px;
+}
+	#subfooter {
+		width: 710px;
+}
+}
+
+@media (max-width: 723px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 700px;
+		height: 35px;
+}
+	#thirditem {
+		margin-right: 0px;
+}
+	header nav {
+		width: 700px;
+}
+	main {
+		width: 700px;
+}
+	#gamesec span {
+		display: none;
+}
+	#gamesec:after {
+		content: "Early childhood games creates a foundation for success in school. It will help develop all the proper...";
+}
+	#upcomings h3 {
+		font-size: 1.2em;
+}
+	#readmore {
+		font-size: 0.8em;
+}
+	.day p {
+		font-size: 1.1em;
+}
+	.viewmore {
+		left: 90px;
+}	
+	footer {
+		width: 700px;
+}
+	#subfooter {
+		width: 700px;
+}
+}
+
+@media (max-width: 713px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 690px;
+		height: 35px;
+}
+	#thirditem {
+		margin-right: 0px;
+}
+	header nav {
+		width: 690px;
+}
+	main {
+		width: 690px;
+}
+	#offers {
+		flex-wrap: wrap;
+}
+
+	.servimg {
+		width: 32%;
+}
+	#lastservimg {
+		margin-top: 10px;
+}
+	#register {
+		bottom: 66px;
+}
+	#upcomings h3 {
+		font-size: 1.2em;
+}
+	#readmore {
+		font-size: 0.8em;
+}
+	.day p {
+		font-size: 1.1em;
+}
+	#flex-gallery {
+		flex-wrap: wrap;
+}
+	.facility {
+		width: 34%;
+}
+	#lastfacility {
+		margin-top: 10px;
+}
+	.viewmore {
+		left: 95px;
+}
+	.descrip h4 {
+		font-size: 1.0em;
+}	
+	footer {
+		width: 690px;
+}
+	#subfooter {
+		width: 690px;
+}
+}
+
+@media (max-width: 703px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 680px;
+		height: 35px;
+}
+	#signup {
+		padding-left: 10px;
+}
+	header nav {
+		width: 680px;
+}
+	main {
+		width: 680px;
+}
+	#readmore {
+		font-size: 0.8em;
+}
+	.day p {
+		font-size: 1.0em;
+}	
+	footer {
+		width: 680px;
+}
+	#subfooter {
+		width: 680px;
+}
+}
+
+@media (max-width: 693px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 670px;
+		height: 35px;
+}
+	#thirditem {
+		margin-right: 0px;
+}
+	header nav {
+		width: 670px;
+}
+	main {
+		width: 670px;
+}
+	#register {
+		bottom: 64px;
+}
+	#upcomings h3 {
+		font-size: 1.1em;
+}
+	#readmore {
+		font-size: 0.8em;
+}
+	.viewmore {
+		left: 90px;
+}	
+	footer {
+		width: 670px;
+}
+	#subfooter {
+		width: 670px;
+}
+}
+
+@media (max-width: 683px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 660px;
+		height: 35px;
+}
+	#signup {
+		padding-left: 0px;
+}
+	header nav {
+		width: 660px;
+}
+	main {
+		width: 660px;
+}
+	#register {
+		bottom: 62px;
+}
+	#upcomings h3 {
+		font-size: 1.1em;
+}
+	#readmore {
+		font-size: 0.8em;
+}
+	.viewmore {
+		left: 90px;
+}	
+	footer {
+		width: 660px;
+}
+	#subfooter {
+		width: 660px;
+}
+}
+
+@media (max-width: 674px) {
+	
+	header { 
+		position: fixed;
+		top: 0; 
+		z-index: 1000;
+		width: 100%;
+}
+	
+	#upper-contentbkgrnd {
+		height: 40px;
+}
+	#upper-content { 
+		height: 40px;
+		justify-content: space-between;
+		
+}
+	#logo h1 {
+		font-size: 1.5em;
+		padding: 9px;
+}
+
+	#main-img {
+		margin-top: 40px;
+}
+
+	/*This is where we going to add css style rules for the click hamburger bar*/
+
+	#hamburger {
+		margin-top: 2px;
+		position: relative;
+		display: inline-block;
+		margin-left: 100px; 
+}
+
+	.hambtn {
+		background-color: #ffc107;
+		color: #eb1c73;
+		font-size: 1.8em;	
+		border-radius: 6%;
+		border: none;
+		cursor: pointer;
+		padding: 3px 6px;
+			
+}
+	.ham-dropdowncontent {
+		font-size: 1.5em;
+		position: absolute;
+		width: 200px;
+		right: -20px;
+		list-style-type: none;
+		box-shadow: 0px 4px 3px 0px rgba(0,0,0,0.2);
+		margin: 0;		
+		background-color: #ff6d12;
+		margin: 0px;
+		padding: 0px;
+		z-index: 1;
+		display: none;
+}
+
+	.ham-dropdowncontent li {
+		width: 100%;
+		margin: 0;
+}
+
+	.ham-dropdowncontent a {
+		text-decoration: none;
+		color: white;
+		width: 80%;
+		padding: 8% 10%;
+		display: block;
+}
+
+	.ham-dropdowncontent a:hover {
+		background-color: #e80029;
+}
+
+	.show {
+		display:block;
+
+}
+
+}
+
+@media (max-width: 673px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 650px;
+		height: 35px;
+}
+
+	#thirditem {
+		margin-right: 0px;
+}
+
+	main {
+		width: 650px;
+}
+	#learn {
+		width: 118px;
+		height: 18px;
+		padding-top: 8px;
+}
+	#register {
+		bottom: 62px;
+}
+	#upcomings h3 {
+		font-size: 1.1em;
+}
+	#readmore {
+		font-size: 0.8em;
+}
+	.viewmore {
+		left: 90px;
+}	
+	footer {
+		width: 650px;
+}
+	#subfooter {
+		width: 650px;
+}
+}
+
+@media (max-width: 663px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 640px;
+		height: 35px;
+}
+
+	#thirditem {
+		margin-right: 0px;
+}
+	main {
+		width: 640px;
+}
+	#register {
+		bottom: 62px;
+		font-size: 1.9em;
+}
+	#post {
+		display: initial;
+		width: 100%;
+}
+	#welcome {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		border-bottom: 1.5px solid #808080e0;
+}
+
+	#upcomings {
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+	#upcomings h3 {
+		font-size: 1.1em;
+}
+	#readmore {
+		font-size: 0.8em;
+}
+	.viewmore {
+		left: 90px;
+}	
+	footer {
+		width: 640px;
+}
+	#subfooter {
+		width: 640px;
+}
+}
+
+@media (max-width: 653px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 630px;
+		height: 35px;
+}
+
+	#thirditem {
+		margin-right: 0px;
+}
+	main {
+		width: 630px;
+}
+	#learn {
+		width: 116px;
+		height: 16px;
+		padding-top: 7px;
+}
+	#register {
+		bottom: 62px;
+		font-size: 1.8em;
+}
+	
+	footer {
+		width: 630px;
+}
+	#subfooter {
+		width: 630px;
+}
+}
+
+@media (max-width: 631px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 580px;
+		height: 35px;
+}
+	#offers {
+		justify-content: space-around;
+}
+	.servimg {
+		width: 45%;
+		margin: 1%;
+}
+	main {
+		width: 580px;
+}
+	#learn {
+		width: 116px;
+		height: 16px;
+		padding-top: 6px;
+		font-size: 1.2em;
+}
+	#register {
+		bottom: 62px;
+}
+	#flex-gallery {
+		display: initial;
+		width: 100%;
+}
+
+	.facility {
+		margin-left: auto;
+		margin-right: auto;
+		width: 55%;
+		margin-top: 2%;		
+}
+	.viewmore {
+		left: 130px;
+}
+	
+	footer {
+		width: 580px;
+}
+	#subfooter {
+		width: 580px;
+}
+}
+
+@media (max-width: 621px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 560px;
+		height: 35px;
+}
+	#register {
+		bottom: 62px;
+		font-size: 1.6em;
+}
+	#learn {
+		width: 110px;
+		height: 14px;
+		padding-top: 5px;
+		font-size: 1.2em;
+}
+	main {
+		width: 560px;
+}
+	.viewmore {
+		left: 120px;
+}
+
+	footer {
+		width: 560px;
+}
+	#subfooter {
+		width: 560px;
+}
+}
+
+@media (max-width: 611px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 540px;
+		height: 35px;
+}
+	main {
+		width: 540px;
+}
+	.viewmore {
+		left: 116px;
+}
+
+	footer {
+		width: 540px;
+}
+	#subfooter {
+		width: 540px;
+}
+}
+
+@media (max-width: 601px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 520px;
+		height: 35px;
+}
+
+	main {
+		width: 520px;
+}
+
+	footer {
+		width: 520px;
+}
+	footer nav {
+		margin-left: 10%;
+		margin-right: 10%;
+}	
+
+	#subfooter {
+		width: 520px;
+}
+}
+
+@media (max-width: 591px) {
+
+	body {
+		font-size: 14px;
+}
+	#upper-content {
+		width: 500px;
+		height: 35px;
+}
+	#register {
+		font-size: 1.5em; 	
+}
+
+	main {
+		width: 500px;
+}
+
+	footer {
+		width: 500px;
+}
+	#subfooter {
+		width: 500px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

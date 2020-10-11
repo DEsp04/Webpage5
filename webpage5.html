@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+  <html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Denise's Child Care Center</title>
+		<link type="text/css" rel="stylesheet" href="styles/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu:300&display=swap" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="styles/media-queries.css">
+		<script src="https://kit.fontawesome.com/606dd3ae68.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header>
+			<div id="upper-contentbkgrnd">
+				<div id="upper-content"> <!-- The upper nav content will remain on the top of the webpage. Look at Disney webpage. (Flex) -->
+					<div id="logo">
+						<h1>Denise's Child Care Center</h1> <!-- The title of the webpage will go side by side with the navigational link below -->
+					</div>
+
+					<ul id="contact"> <!-- flex-->
+						<li><i class="fas fa-phone-alt" aria-hidden="true"></i> (718) 222-4444</li>
+						<li><a href="mailto:denise.childcarecenter@gmail.com">E-mail Us</a></li>
+						<li id="thirditem"><a href="#" title="Location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> 333 Sedgwick Avenue, Bronx, NY, USA</a></li>
+						<li class="sm"><a href="#"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>	<!-- We gonna replace the social media content with icons -->
+						<li class="sm"><a href="#"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+						<li class="sm"><a href="#"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a></li>
+						<li class="sm"><a href="#"><i class="fab fa-youtube fa-lg" aria-hidden="true"></i></a></li>
+						<li id="signup">Sign Up</li>
+					</ul>
+
+					<div id="hamburger">				<!-- This is where we going to create our hamburger bar -->
+						<i onclick="myClickFunction()" class="hambtn fas fa-bars"></i>
+						<ul id="myDropdown" class="ham-dropdowncontent">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Courses</a></li>
+							<li><a href="#">Activities</a></li>
+							<li><a href="#">News</a></li>
+							<li><a href="#">Gallery</a></li>
+							<li><a href="#">Contacts</a></li>
+						  	<li><a href="#">Sign Up</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+
+			<nav> <!-- This nav section will remain on the bottom of the upper nav-content --> <!-- We using the nav as a container for dropdown menu 10/17/19  -->
+				<ul id="flexnav"> <!-- flex -->
+					<li><a href="#">Home</a></li>	<!-- We going to select a li and inside that li we going to add another ul to create a sublist -->
+					<li><a href="#">About Us</a></li>
+					<li>
+						<a href="#" class="highlight">Courses</a>
+						<ul>
+							<li><a href="#">Reading</a></li>
+							<li><a href="#">Writing</a></li>
+							<li><a href="#">Basic Math</a></li>
+							<li><a href="#">Art</a></li>
+							<li><a href="#">Science</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#" class="highlight">Activities</a>
+						<ul>
+							<li><a href="#">Group Game</a></li>
+							<li><a href="#">Story</a></li>
+							<li><a href="#">Arts &amp; Crafts</a></li>
+							<li><a href="#">Music</a></li>
+							<li><a href="#">Outdoor Time</a></li>
+						</ul>
+					</li>
+					<li><a href="#">News</a></li>
+					<li><a href="#">Gallery</a></li>
+					<li><a href="#">Contacts</a></li>
+				</ul>
+			</nav>
+		</header>
+
+
+		<main>
+			<a href="#">
+				<div id="main-img">
+					<img src="image/mainpic.jpg" alt="Children">
+					<a href="#" title="Learn More" id="learnlink"><p id="learn">Learn More</p></a>
+					<a href="#" id="registerlink"><p id="register">How to register your child to a class?</p></a>
+				</div> <!-- We gonna put a large image with a 'learn more' block -->
+			</a>
+
+
+
+			<div id="offers"> <!-- We going to have four images next to each other (same width & height) - Flex. Under each image, rectangle with title and content -->
+
+
+				<div class="servimg"> <!-- Activities -->
+					<a href="#">
+						<div class="relativeimg">
+							<img src="image/activities.jpg" alt="Activities">
+							<h2 id="activity">Activities</h2>
+						</div>
+						<p class="morebkgrnd" id="activpp"><span>Our activities includes challenging and developing your child's creativity,
+						thinking skills, social skills, and imagination.
+						<br>
+						<br id="br-disappear2">
+						</span></p>
+					</a>
+				</div>
+
+
+
+				<div class="servimg"> <!-- Education -->
+					<a href="#">
+						<div class="relativeimg">
+							<img src="image/education.jpg" alt="education">
+							<h2 id="edu">Education</h2>
+						</div>
+						<p class="morebkgrnd">Our center provides many educational
+						activities to keep your child engaged. They learn
+						when playing.
+						<br>
+						<br id="br-disappear4">
+						<br id="br-disappear">
+						</p>
+					</a>
+				</div>
+
+
+
+				<div class="servimg"> <!-- Games -->
+					<a href="#">
+						<div class="relativeimg">
+							<img src="image/game.jpg" alt="game">
+							<h2 id="games">Games</h2>
+						</div>
+						<p class="morebkgrnd" id="gamesec"><span>Early childhood games creates a foundation for success in school.
+						It will help develop all the proper learning skills.
+						<br>
+						<br id="br-disappear3">
+						</span></p>
+					</a>
+				</div>
+
+
+				<div class="servimg" id="lastservimg"> <!-- Happy Environment -->
+					<a href="#">
+						<div class="relativeimg">
+							<img src="image/happyenviron.jpg" alt="happy enviornment">
+							<h2 id="henvironment"><span>Happy Environment</span></h2>
+						</div>
+						<p id="henvipara"><span>Our center is committed to providing a safe and happy environment. We
+						encourage the children in our care to explore and develop in all area
+						of their lives.</span></p>
+					</a>
+				</div>
+			</div>
+
+
+			<div id="post"> <!-- This section is divided in two. Left side 'Up Coming Event' section and right side have 'Welcome' -flex. -->
+				<div id="welcome">
+					<h2>Welcome to Denise's Child Care Center</h2>
+					<p>Denise' Child Care Center based in Bronx, provides innovative and affordable concept in childcare and preschool education.
+					<br>
+					<br>
+					Our child care center offers excellent facilities suitable for children ages 5 weeks to school aged. Our program is designed to
+					prepare the children for their scholastic years ahead. We also offer after school and planned activities to keep the children busy
+					with age appropriate groups and completing their school homeworks.</p>
+
+					<a href="#" title="Read more" id="readlink"><p id="readmore">Read more</p></a> <!-- This will be a link to the welcome section -->
+				</div>
+
+				<div id="upcomings">
+					<div id="titleborder">
+						<img src="image/events.png">
+						<h3>Upcoming Events</h3>
+					</div> <!--We will create a solid rectangle. Then add the header -->
+
+					<div>
+						<div class="flexupcoming"> <!--Do flex so 'day' is on the left side and the description on the right-->
+							<div class="day" id="first-date"><p>13OCT</p></div>
+							<div class="descrip">
+								<h4>Parent/Teacher Conference:</h4>
+								<p>This gives parents a formal opportunity to discuss their child's development
+								with the teacher.</p>
+							</div>
+						</div>
+
+						<div class="flexupcoming"> <!--Do flex so 'day' is on the left side and the description on the right-->
+							<div class="day" id="second-date"><p>08NOV</p></div>
+							<div class="descrip">
+								<h4>Picture Day:</h4>
+								<p id="nov"><span>On first week of October, children are photographed by a professional photographer (with the parent consent).
+								Parents have the choice of purchasing photos of their child and a class picture.</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+			<div id="gallery"> <!-- This section is gallery. Three images about the daycare premises and perhaps playground  -->
+				<div><h2>Our Photo Gallery</h2></div>
+				<div id="flex-gallery"> <!-- These three images will be flex -->
+					<div class="facility">		<!-- playground -->
+						<a href="#"><img src="image/playground.jpg" alt="Playground"></a>
+						<a href="#" class="viewlink"><p class="viewmore">VIEW MORE</p></a>
+					</div>
+					<div class="facility">		<!-- cafeteria -->
+						<a href="#"><img src="image/cafeteria.jpg" alt="Cafeteria"></a>
+						<a href="#" class="viewlink"><p class="viewmore">VIEW MORE</p></a>
+					</div>
+					<div class="facility" id="lastfacility">		<!-- classroom -->
+						<a href="#"><img src="image/classroom.jpg" alt="Classroom"></a>
+						<a href="#" class="viewlink"><p class="viewmore">VIEW MORE</p></a>
+					</div>
+				</div>
+			</div>
+		</main>
+
+
+		<footer>
+			<nav> <!-- flex -->
+				<div class="right-border">
+					<a href="#" class="fhlink"><h3>Programs</h3></a>
+					<ul>
+						<li><a href="#">Infants</a></li>
+						<li><a href="#">Toddlers</a></li>
+						<li><a href="#">Preschool</a></li>
+						<li><a href="#">School Age</a></li>
+					</ul>
+				</div>
+
+				<div class="right-border">
+					<a href="#" class="fhlink"><h3>Our Centers</h3></a>
+					<ul>
+						<li><a href="#">Fort Washington Kids Center</a></li>
+						<li><a href="#">Harlem Child Care Center</a></li>
+						<li><a href="#">Flushing Child Center</a></li>
+						<li><a href="#">Jamaica Queens Children</a></li>
+					</ul>
+				</div>
+
+				<div>
+					<a href="#" class="fhlink"><h3>Curriculum</h3></a>
+					<ul>
+						<li><a href="#">Literacy</a></li>
+						<li><a href="#">STEM</a></li>
+						<li><a href="#">Art</a></li>
+						<li><a href="#">Sports</li>
+						<li><a href="#">Language</a></li>
+						<li><a href="#">Sign language</a></li>
+					</ul>
+				</div>
+			</nav>
+		</footer>
+
+		<div id="subfooter">
+			<h3>Denise's Child Care Center</h3>
+			<div>
+				<ul class="subflex" id="top-subf"> <!-- flex -->
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Careers</a></li>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">Enrollment</a></li>
+				</ul>
+			</div>
+
+			<div id="subfooterbkgrnd">
+				<ul class="subflex" id="bottom-subf"> <!-- flex -->
+					<li><a href="#">Privacy Policy</a></li>
+					<li><a href="#">Children's Online Privacy Policy</a></li>
+					<li><a href="#">Accessibility</a></li>
+					<li><a href="#">Term of Use</a></li>
+				</ul>
+			</div>
+			<p>Copyright &copy; 2019. Denise's Child Care Center by David Espinal</p>
+		</div>
+
+		<script src="js/javascript.js"></script> <!-- This script element with src attribute will link this html file to the javascript file. -->
+
+	</body>
+  </html>

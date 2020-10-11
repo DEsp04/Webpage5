@@ -1,0 +1,633 @@
+
+body {
+	font-family:'Ubuntu', Verdana, Geneva, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	margin: 0px;
+}
+
+
+/* The one CSS rule you see below is to create that long sky blue bar as the background for upper-content element */
+
+#upper-contentbkgrnd {
+	height: 40px;
+	background-color: #dafff8;
+	margin: 0;
+}
+
+#upper-content {
+	display: flex;
+	font-size: 0.8em;
+	background-color: #dafff8;
+	width: 1270px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo h1 {
+	font-size: 1.8em;
+	margin: 0px -10px 0px 14px;
+	padding: 5px 4px 5px 5px;
+	font-family: 'Acme', sans-serif;
+	color: #ff375a;
+	background-color: #c0fff4;
+}
+
+#contact {
+	display: flex;
+	margin-bottom: 0px;
+}
+
+#contact li {
+	list-style-type: none;
+	margin-left: 20px;
+}
+
+/* Icons colors and positioning plus increase size when hover */
+
+.fa-facebook {
+	color: #4267B2;
+	margin-top: -8px;
+	height: 20px;
+}
+
+.fa-twitter {
+	color: #38A1F3;
+	margin-top: -8px;
+	margin-left: -8px;
+}
+
+.fa-instagram {
+	color: #231F20;
+	margin-top: -8px;
+	margin-left: -8px;
+}
+
+.fa-youtube {
+	color: #ED3833;
+	margin-top: -8px;
+	margin-left: -8px;
+}
+
+.fa-phone-alt {
+	color: #ff375a;
+}
+
+.fa-map-marker-alt {
+	color: #ff375a;
+}
+
+.sm {
+	transition: transform .2s; /* we added this transition property so that the time it takes for transform property to zoom the sm element can be quick. */
+}
+
+.sm:hover {
+	transform: scale(1.5);	/* we added this transition property so that the time it takes for transform property to zoom the sm element can be quick. */
+}
+
+
+
+/* Moving fb & sign up more to the right */
+
+#thirditem {
+	margin-right: 60px;
+}
+
+#signup {
+	padding-left: 100px;
+}
+
+
+/* Styling the links */
+
+#contact a {
+	text-decoration: none;
+	color: #000000;
+}
+
+#contact a:hover {
+	color: #ff375a;
+}
+
+
+/* Lower nav */
+
+header nav {
+	width: 1270px;
+	margin: 0px auto 0px auto;
+	color: white;
+	background-color: #ff375a;
+	font-size: 1.1em;
+}
+
+#flexnav {
+	display: flex;
+	justify-content: center;
+}
+
+header nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 4px 0 4px 0;
+	position: relative;
+}
+
+header nav li {
+	margin-left: 4%;
+}
+
+header nav li:first-child {
+	margin-left: 0;
+}
+
+header nav a {
+	text-decoration: none;
+	color: white;
+}
+
+header nav a:hover {
+	background-color: #e80029;
+}
+
+/* To highlight the background when dropdown is initiated we added hover to li container and added background-color property to <a> class="highlight" */
+
+header nav li:hover .highlight {
+	background-color: #e80029;
+}
+
+header nav ul ul {	/* We are picking the sub ul elements to decorate */
+	width: 15%;
+	margin: 0px;
+	padding-up: 8%;
+	padding-right: 1.5%;
+	background-color: #ff6d12;
+	box-shadow: 0px 4px 3px 0px rgba(0,0,0,0.2);
+	display: none;		/* none */
+	z-index: 1;
+	position: absolute;
+	border-bottom: 4px solid #dafff8;
+	border-top: 4px solid #dafff8;
+}
+
+header nav ul ul li {
+	width: 100%;
+	margin: 0;
+}
+
+header nav ul ul li a {
+	width: 90%;
+	padding: 8% 10%;
+	display: block;
+}
+
+header nav ul ul li a:hover {
+	background-color: #ff9300;
+}
+
+header nav ul li:hover > ul {  /* The > means we are picking the direct child of ul li which ul */
+	display: block;
+}
+
+/* We going to fit the main content with the left and right side auto */
+
+main {
+	width: 1270px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+}
+
+/* Working on the main image */
+
+#main-img {
+	max-width: 100%;  /* change this in % to shrink image when doing Media Query */
+	background: linear-gradient(-10deg, black 1%, black 3%, transparent 50%);
+	position: relative; /* I add this relative so we can position learn more paragraph */
+}
+
+#main-img img{
+	position: relative;
+	max-width: 100%;
+	display: block;
+	height: auto;
+	z-index: -1;
+	
+}
+
+#learn {
+	background-color: #eb0073;
+	width: 150px;
+	height: 30px;
+	font-size: 1.4em;
+	text-align: center;
+	border-radius: 10px;
+	position: absolute;
+	bottom: 20px;
+	right: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: linear-gradient(to bottom, #eb0073, #f3a5cb 2%, #eb0073 6%);
+
+}
+
+#learnlink p {
+	text-decoration: none;
+	color: black;
+	
+}
+
+#learnlink p:hover {
+	background: linear-gradient(to bottom, #eb0073, #e45199 2%, #eb0073 6%);
+}
+
+#register {
+	position: absolute;
+	font-size: 2.2em;
+	font-weight: bold;
+	bottom: 150px;
+	right: 100px;
+	color: white;
+}
+
+/* This the style for the 4 images and rectangles under each of them */
+
+#offers { 
+	max-width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1%;
+
+}
+
+.servimg {
+	width: 24%;
+	transition: transform .2s; /* we added this transition property so that the time it takes for transform property to zoom the servimg element can be quick. */
+}
+
+.servimg img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	
+}	
+
+.servimg p {
+	max-width: 100%;
+	height: auto;
+	font-size: 100%;
+	background-color: #dafef8;
+	padding: 10px;
+	margin-top: 5px;
+	line-height: 1.3;
+	margin-bottom: 0px;
+}
+
+.relativeimg {		/* we add this rule to allow h2 be relative to div */
+	position: relative;
+}
+
+.servimg h2 {
+	text-align: center;
+	width: 88%;
+	position: absolute;
+	bottom: -30px;
+	left: 16px;
+	z-index: 1;
+}
+
+#offers a {
+	text-decoration: none;
+	color: black;
+}
+
+#activity {
+	background-color: #00ae9c;		
+}
+
+#edu {
+	background-color: #b01f53;
+	color: white;		
+}
+
+#games {
+	background-color: #59cef8;		
+}
+
+#henvironment {
+	background-color: #ffe72e;		
+}
+
+/* We use the transform property to zoom the elements labeled with class="servimg". But remember to add the transition-property (in this this case the property is transform) to .servimg to add how quick or slow you want the element to zoom -> look at .servimg also. */
+
+.servimg:hover {	
+	transform: scale(1.03);
+	box-shadow: 0px 4px 3px 0px rgba(0,0,0,0.2);
+}
+
+/* Below these CSS rules going to belong to the 'Post' area */
+
+
+#post {
+	max-width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 2%;
+}
+
+#welcome {
+	line-height: 1.4;
+	width: 50%;
+	font-size: 1.1em;
+}
+
+#welcome h2 {
+	color: #ff375a;
+	font-size: 1.9em;
+	font-weight: bolder;
+	border-bottom: 1.5px solid #ff7837;
+	
+}
+
+#readmore {
+	background-color: #eb0073;
+	width: 20%;
+	height: auto;
+	font-size: 1em;
+	text-align: center;
+	border-radius: 10px;
+	padding-top: 8px;
+	padding-bottom: 10px;
+	background: linear-gradient(to bottom, #eb0073, #f3a5cb 2%, #eb0073 6%);
+	display: inline-block;
+	margin-top: 6%;
+}
+
+
+#readlink  {
+	text-decoration: none;
+	color: black;
+	
+}
+
+#readlink p:hover {
+	background: linear-gradient(to bottom, #eb0073, #e45199 2%, #eb0073 6%);
+}
+
+#upcomings {
+	width: 30%;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	margin-top: 2%;
+}
+
+#titleborder {
+	height: 40px;
+	background-color: #ff7837;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	margin: 0;
+	padding-top: 5px; 
+	padding-bottom: 5px;
+	display: flex;
+}
+
+#upcomings h3 {
+	color: white;
+	font-size: 1.5em;
+	font-weight: bolder;
+	text-align: center;
+	margin: 0;
+	margin-left: 6%; 
+	margin-top: 1%;
+}
+
+#titleborder img {
+	max-width: 20%;
+	height: auto;
+	display: block;
+	margin-left: 5%;
+}
+
+.flexupcoming {
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.day {
+	background-color: red;
+	border-radius: 10px;
+	width: 25%;
+	height: 50%;
+	margin-top: 15px;
+}
+
+.day p {
+	text-align: center;
+	font-weight: bolder;
+	color: white;
+	font-size: 1.4em;
+	
+}
+
+#first-date {
+	background-color: #393db8;
+}
+
+#second-date {
+	background-color: #096440;
+}
+
+.descrip {
+	width: 55%;
+}
+
+.descrip p {
+	line-height: 1.3;
+	margin-top: -10px;
+}
+
+.descrip h4 {
+	color: red;
+	font-size: 1.2em;
+}
+
+/* The following CSS style will help design the gallery section */
+
+
+#flex-gallery {
+	display: flex;
+	justify-content: space-around;
+}
+
+.facility {
+	width: 30%;
+	position: relative;
+
+}
+
+.facility img {
+	max-width: 100%;
+	height: auto;
+	border: 9px solid #c0fef3;
+	transition: transform .2s;
+}
+
+/* The bottom css property dictate that when ever we put pointer on the div element labeled class= facility, the <img> element will highlight its border */
+
+.facility:hover img  {
+	border: 9px solid #ff375a;
+	transform: scale(1.03);
+	box-shadow: 0px 4px 3px 0px rgba(0,0,0,0.2);
+}
+
+.viewmore {
+	width: 30%;
+	height: auto;
+	font-size: 1em;
+	text-align: center;
+	border-radius: 10px;
+	padding-top: 8px;
+	padding-bottom: 10px;
+	background: linear-gradient(to bottom, #ff7837, #ffaa37 2%, #ff7837 6%);
+	display: inline-block;
+	position: absolute;	
+	left: 125px;
+	bottom: 20px;
+	margin: 0;
+	transition: transform .2s;
+}
+
+/* The bottom CSS property dictates that when ever we put pointer on the div element labeled class=facility,
+the <p class=viewmore> will be highlighted */
+
+.facility:hover .viewlink p {
+	background: linear-gradient(to bottom, #ff7837, #ea8600 2%, #ff7837 6%);
+	transform: scale(1.03);
+}
+
+.viewmore {
+	color: white;
+}
+
+
+/* We going to work with anything that deals with footer */
+
+footer {
+	width: 1270px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer nav {
+	display: flex;
+	margin-left: 20%;
+	margin-right: 20%; 
+	margin-top: 5%; 
+}
+
+.right-border {
+	border-right: 1px solid #ffd7dd;
+}
+
+footer div {
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+footer ul {
+	width: 100%;
+	list-style-type: none;
+	padding: 0;
+	margin-top: 1%;
+}
+
+footer ul li {
+	font-family:'Ubuntu', sans-serif;
+	padding-bottom: 10px;
+	font-weight: 300;
+	font-size: 0.9em;	
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: black;
+	
+}
+
+footer ul li a:hover {
+	color: #ff7837;
+}
+	
+footer h3 {
+	font-size: 1.2em;
+	display: inline-block;
+	
+}
+
+.fhlink {
+	text-decoration: none;
+	color: black;	
+}
+
+.fhlink:hover {
+	color: #ff7837;	
+}
+
+#subfooter {
+	width: 1270px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#subfooter h3 {
+	text-align: center;
+	color: #ff3759;
+	font-size: 1.3em;
+	letter-spacing: -1px;
+}
+
+.subflex {
+	display: flex;
+	list-style-type: none;
+	font-size: 0.8em
+}
+
+.subflex li {
+	padding-left: 30px;
+	padding-right: 30px;
+	
+}
+
+.subflex li a {
+	text-decoration: none;
+	color: black;
+}
+
+.subflex li a:hover {
+	color:#ff7837;
+}
+
+#top-subf {
+	font-weight: 300;
+	margin-left: 22%;
+	margin-right: 22%;
+}
+
+#bottom-subf {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+#subfooterbkgrnd {
+	background: linear-gradient(to top, #dafff8 0.1%, white);
+}
+
+#subfooter p {
+	font-weight: 300;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+
+
