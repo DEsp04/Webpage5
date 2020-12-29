@@ -40,7 +40,7 @@ let mQ = window.matchMedia("(min-width: 674px)");
  }
 	barDisappear(mQ);
 	
-	mQ.addListener(barDisappear); 
+	mQ.addEventListener(barDisappear); 
 
 /* The code below is to make the hamburger icon clickable */
 
@@ -58,7 +58,7 @@ window.onclick = function(event) {
     
 	let hamcontent = document.getElementsByClassName("ham-dropdowncontent");
     	for (let i = 0; i < hamcontent.length; i++) {
-      		var openHamContent = hamcontent[i];
+      		let openHamContent = hamcontent[i];
       		if (openHamContent.classList.contains('show')) {
         	openHamContent.classList.remove('show');
       }
