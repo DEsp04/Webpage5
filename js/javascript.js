@@ -1,7 +1,7 @@
 /* We going to make the contact part to disappear */
 
 
-var mediaQuery = window.matchMedia("(max-width: 673px)"); /* This variable is assign to a matchMedia() function to let us know when the window reaches a maximum of 673px wide */
+let mediaQuery = window.matchMedia("(max-width: 673px)"); /* This variable is assign to a matchMedia() function to let us know when the window reaches a maximum of 673px wide */
 
  function sectionDisappear(mediaQuery) {
 	if(mediaQuery.matches) {		/* We use Jquery library to pick an element using $(). Also, we use the .match property to see if window width 673 is true */
@@ -24,7 +24,7 @@ var mediaQuery = window.matchMedia("(max-width: 673px)"); /* This variable is as
 
 /* The function below is to make disappear the hamburger icon when width is greater than 674px */
 
-var mQ = window.matchMedia("(min-width: 674px)"); 
+let mQ = window.matchMedia("(min-width: 674px)"); 
 
  function barDisappear(mQ) {
 	if(mQ.matches) {		
@@ -56,8 +56,8 @@ window.onclick = function(event) {
 
   if (!event.target.matches('.hambtn')) {
     
-	var hamcontent = document.getElementsByClassName("ham-dropdowncontent");
-    	for (var i = 0; i < hamcontent.length; i++) {
+	let hamcontent = document.getElementsByClassName("ham-dropdowncontent");
+    	for (let i = 0; i < hamcontent.length; i++) {
       		var openHamContent = hamcontent[i];
       		if (openHamContent.classList.contains('show')) {
         	openHamContent.classList.remove('show');
