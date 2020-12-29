@@ -17,7 +17,7 @@ let mediaQuery = window.matchMedia("(max-width: 673px)"); /* This variable is as
 
 	sectionDisappear(mediaQuery); /* Before doing the addlistener(), call this function first so the webpage is ready to do it at the get-go.  */
 	
-	mediaQuery.addListener(sectionDisappear); 	
+	mediaQuery.addEventListener(sectionDisappear); 	
 
 /* We going to add a listener to var mediaQuery to keep track of the width size of the window and run the function sectionDisappear. In other words, regardless the state of width, the addListener() will activate or call the sectionDisappear function.  */
 
