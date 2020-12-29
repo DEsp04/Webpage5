@@ -17,7 +17,7 @@ let mediaQuery = window.matchMedia("(max-width: 673px)"); /* This variable is as
 
 	sectionDisappear(mediaQuery); /* Before doing the addlistener(), call this function first so the webpage is ready to do it at the get-go.  */
 	
-	mediaQuery.addEventListener(sectionDisappear); 	
+	mediaQuery.addListener(sectionDisappear); 	
 
 /* We going to add a listener to var mediaQuery to keep track of the width size of the window and run the function sectionDisappear. In other words, regardless the state of width, the addListener() will activate or call the sectionDisappear function.  */
 
@@ -40,7 +40,7 @@ let mQ = window.matchMedia("(min-width: 674px)");
  }
 	barDisappear(mQ);
 	
-	mQ.addEventListener(barDisappear); 
+	mQ.addListener(barDisappear); 
 
 /* The code below is to make the hamburger icon clickable */
 
@@ -58,7 +58,7 @@ window.onclick = function(event) {
     
 	let hamcontent = document.getElementsByClassName("ham-dropdowncontent");
     	for (let i = 0; i < hamcontent.length; i++) {
-      		let openHamContent = hamcontent[i];
+      		 openHamContent = hamcontent[i];
       		if (openHamContent.classList.contains('show')) {
         	openHamContent.classList.remove('show');
       }
